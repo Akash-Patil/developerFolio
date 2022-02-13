@@ -17,7 +17,7 @@ const greeting = {
     "A full-time Software Engineer🚀 passionate about full-stack development but would also love to engage with other fields of software engineering like Machine learning and Data science."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1dPT3ERVnnX4i2s-S1v0zdrokoaEa7w8B/view?usp=sharingg", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Zyw80kEzrfWNHIBMkNRDnAK_57Wq_K48/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -144,7 +144,7 @@ const workExperiences = {
   experience: [
     {
       role: "Associate Software Engineer",
-      company: "LoginRadius Inc.",
+      company: "LoginRadius",
       companylogo: require("./assets/images/loginradius.png"),
       date: "Aug 2020 – Present",
       desc: "Mainly worked on the following projects as part of the Product and Growth team.",
