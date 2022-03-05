@@ -17,7 +17,7 @@ const greeting = {
     "A full-time Software Engineer🚀 passionate about full-stack development but would also love to engage with other fields of software engineering like Machine learning and Data science."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Zyw80kEzrfWNHIBMkNRDnAK_57Wq_K48/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1qWYZApxojZ7ttEwhVbd_2buYfktKCeEW/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
