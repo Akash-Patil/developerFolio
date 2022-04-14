@@ -14,7 +14,7 @@ const greeting = {
   username: "Akash Patil",
   title: "Hi all, I'm Akash",
   subTitle: emoji(
-    "A full-time Software Engineer🚀 passionate about full-stack development but would also love to engage with other fields of software engineering like Machine learning and Data science."
+    "A full-time Software Engineer🚀 passionate about full-stack development and would also love to engage with other fields of software engineering that interest me."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1qWYZApxojZ7ttEwhVbd_2buYfktKCeEW/view?usp=sharing", // Set to empty to hide the button
@@ -42,9 +42,6 @@ const skillsSection = {
       "⚡ Experienced in a wide range of languages and technologies pertaining to different layers of the stack like React(frontend) and Express.js(backend)."
     ),
     emoji("⚡ Having co-led projects, have industry experience in collaborating between different teams to develop solutions to achieve a particular target."),
-    emoji(
-      "⚡ Knowledgeable in Machine learning and Data science."
-    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -146,7 +143,7 @@ const workExperiences = {
       role: "Associate Software Engineer",
       company: "LoginRadius",
       companylogo: require("./assets/images/loginradius.png"),
-      date: "Aug 2020 – Present",
+      date: "Aug 2020 – April 2022",
       desc: "Mainly worked on the following projects as part of the Product and Growth team.",
       descBullets: [
         "Developed a plugin for integrating Mailazy Email service with LoginRadius Developer Dashboard (Project Co-lead). Worked on the backend APIs and User interface.",
