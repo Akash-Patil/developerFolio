@@ -12,12 +12,12 @@ const illustration = {
 
 const greeting = {
   username: "Akash Patil",
-  title: "Hi all, I'm Akash",
+  title: "Hi, I'm Akash",
   subTitle: emoji(
     "A full-time Software Engineer🚀 passionate about full-stack development and would also love to engage with other fields of software engineering that interest me."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1qWYZApxojZ7ttEwhVbd_2buYfktKCeEW/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/10xEwc9IkVc4Mlar8-xqXw-CEvBEQdfoz/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -39,9 +39,10 @@ const skillsSection = {
   subTitle: "Enthusiastic Developer always looking for opportunities to grow my skillset and network in the software engineering ecosystem.",
   skills: [
     emoji(
-      "⚡ Experienced in a wide range of languages and technologies pertaining to different layers of the stack like React(frontend) and Express.js(backend)."
+      "⚡ Experienced in a wide range of languages and technologies pertaining to different layers of the stack."
     ),
-    emoji("⚡ Having co-led projects, have industry experience in collaborating between different teams to develop solutions to achieve a particular target."),
+    emoji("⚡Enjoy working on projects collaboratively as part of a team but can also execute projects on my own."),
+    emoji("⚡Have some experience leading projects and I am looking to boost my leadership skills by taking on more ownership going forward.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -218,6 +219,48 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const certificates = {
+  title: "Certifications and Licenses",
+  subtitle: "",
+  projects: [
+    {
+      image: require("./assets/images/aws.png"),
+      projectName: "AWS Certified Cloud Practitioner",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Show Credential",
+          url: "https://www.credly.com/badges/2717117e-bac4-4b39-9b77-99d2cfb1f362/public_url"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/udemy.png"),
+      projectName: "AWS Cloud Practitioner - 2022",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Show Credential",
+          url: "https://www.udemy.com/certificate/UC-1d419e61-5541-42ac-b171-aa1571899368/?utm_medium=email&utm_campaign=email&utm_source=sendgrid.com"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/freeCodeCamp.jpg"),
+      projectName: "Back End Development and APIs",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Show Credential",
+          url: "https://www.freecodecamp.org/certification/NaCh0Zzzz/back-end-development-and-apis"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Achievement Section
 // Include certificates, talks etc
 
@@ -335,5 +378,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  certificates
 };

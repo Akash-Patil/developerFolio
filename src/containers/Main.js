@@ -17,6 +17,7 @@ import Profile from "./profile/Profile";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
+import Certification from "./certification/Certification";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -35,6 +36,7 @@ const Main = () => {
         <StackProgress />
         <Education />
         <WorkExperience />
+        <Certification />
         <Projects />
         <StartupProject />
         <Achievement />
