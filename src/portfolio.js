@@ -247,7 +247,7 @@ const certificates = {
       ]
     },
     {
-      image: require("./assets/images/freeCodeCamp.jpg"),
+      image: require("./assets/images/freeCodeCamp.png"),
       projectName: "Back End Development and APIs",
       projectDesc: "",
       footerLink: [
